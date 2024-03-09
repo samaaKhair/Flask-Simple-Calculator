@@ -17,3 +17,6 @@ This repository contains the code for a simple calculator application built with
 **Screenshot of the page:**
 
 ![image](https://github.com/samaaKhair/Flask-Simple-Calculator/assets/82911563/2c7606fc-26e4-4a31-8a23-562a2b4a1405)
+
+**Demo of the calculator:**
+https://drive.google.com/file/d/11IWqA6FYBx9sZds1CIEeIlNt_o9c7w9V/view?usp=drive_link
