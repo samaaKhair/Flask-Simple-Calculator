@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css' ) }}"
+    />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <h1>Simple Calculator</h1>
+    <form method="POST">
+      <input type="number" name="num1" placeholder="Enter first number" />
+      <br /><br />
+      <input type="number" name="num2" placeholder="Enter second number" />
+
+      <br /><br />
+      <input type="radio" name="operation" value="+" /> Addition
+      <input type="radio" name="operation" value="-" /> Subtraction
+      <input type="radio" name="operation" value="*" /> Multiplication
+      <input type="radio" name="operation" value="/" /> Division <br /><br />
+      <input type="submit" value="Calculate" />
+    </form>
+    <p>Result: {{ result }}</p>
+  </body>
+</html>
