@@ -13,3 +13,5 @@ This repository contains the code for a simple calculator application built with
 3. Enter the second number in the designated field.
 4. Click the "Calculate" button.
 5. The calculated result will be displayed below the input fields.
+
+![image](https://github.com/samaaKhair/Flask-Simple-Calculator/assets/82911563/2c7606fc-26e4-4a31-8a23-562a2b4a1405)
